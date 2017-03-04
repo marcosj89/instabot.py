@@ -11,10 +11,10 @@ from follow_protocol import follow_protocol
 import time
 
 
-bot = InstaBot(login="username", password="password",
+bot = InstaBot(login="marcosj89", password="PigsCanFly",
                like_per_day=1000,
                comments_per_day=0,
-               tag_list=['follow4follow', 'f4f', 'cute'],
+               tag_list=['follow4follow', 'f4f', 'cute','igers', 'madrid', 'mallorca', 'travel', 'music', 'ukelele', 'punk'],
                tag_blacklist=['rain', 'thunderstorm'],
                user_blacklist={},
                max_like_for_one_tag=50,
@@ -28,7 +28,7 @@ bot = InstaBot(login="username", password="password",
                # Use unwanted username list to block users which have username contains one of this string
                ## Doesn't have to match entirely example: mozart will be blocked because it contains *art
                ### freefollowers will be blocked because it contains free
-               unwanted_username_list=['second','stuff','art','project','love','life','food','blog','free','keren','photo','graphy','indo',
+               unwanted_username_list=['second','stuff','art','project','love','life','porn','blog','free','keren','photo','graphy','indo',
                                        'travel','art','shop','store','sex','toko','jual','online','murah','jam','kaos','case','baju','fashion',
                                         'corp','tas','butik','grosir','karpet','sosis','salon','skin','care','cloth','tech','rental',
                                         'kamera','beauty','express','kredit','collection','impor','preloved','follow','follower','gain',
